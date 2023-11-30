@@ -6,4 +6,4 @@ eleventyNavigation:
 ---
 # About Me
 
-I'm Richard MacManus a.k.a. ricmac. This is my experimental Eleventy blog, which I want to connect to the fediverse. testing 1234. hey hey hey
+I'm Richard MacManus a.k.a. ricmac. This is my experimental Eleventy blog, which I want to connect to the fediverse. I'm not sure how yet, but bear with me.
