@@ -6,4 +6,4 @@ eleventyNavigation:
 ---
 # About Me
 
-I am a person that writes stuff.
+I'm Richard MacManus a.k.a. ricmac. This is my experimental Eleventy blog, which I want to connect to the fediverse.
