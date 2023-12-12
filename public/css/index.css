@@ -14,9 +14,9 @@
 
 	--text-color: var(--color-gray-90);
 	--text-color-link: #082840;
-	--text-color-link-active: #5f2b48;
+	--text-color-link-active: #cc0000;
 	--text-color-link-visited: #17050F;
-
+	
 	--syntax-tab-size: 2;
 }
 
@@ -80,6 +80,8 @@ li {
 
 a[href] {
 	color: var(--text-color-link);
+	text-decoration: underline;
+	text-decoration-color: #cc0000;
 }
 a[href]:visited {
 	color: var(--text-color-link-visited);
@@ -255,11 +257,13 @@ header {
 a[href].header-anchor,
 a[href].header-anchor:visited {
 	color: transparent;
+	text-decoration: none;
 }
 a[href].header-anchor:focus,
 a[href].header-anchor:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
+
 a[href].header-anchor:focus,
 :hover > a[href].header-anchor {
 	color: #aaa;
