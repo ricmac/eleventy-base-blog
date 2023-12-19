@@ -274,19 +274,23 @@ h2 + .header-anchor {
 }
 
 /* container */
-.responsive-two-column-grid {
-    display:block;
+.right-sidebar {
+    display:flex;
+    flex-wrap:wrap;
 }
 
 /* columns */
-.responsive-two-column-grid > * {
+.right-sidebar > * {
+    width:100%;
     padding:1rem;
 }
 
 /* tablet breakpoint */
 @media (min-width:768px) {
-    .responsive-two-column-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+    .right-sidebar > *:nth-child(1) {
+        width:calc(100% / 3 * 2);
+    }
+    .right-sidebar > *:nth-child(2) {
+        width:calc(100% / 3);
     }
 }
