@@ -273,31 +273,20 @@ h2 + .header-anchor {
 	font-size: 1.5em;
 }
 
-/* CSS Grid */
-.left {
-	left: 0;
- }
- .right {
-	right: 0;
-	background-color: #F5F5F5;
- }
- .left {
-	height: 100%;
-	width: 75%;
-	position: fixed;
-	overflow-x: hidden;
-	padding-top: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
+/* container */
+.responsive-two-column-grid {
+    display:block;
 }
-.right {
-	height: 100%;
-	width: 25%;
-	position: fixed;
-	overflow-x: hidden;
-	padding-top: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
+
+/* columns */
+.responsive-two-column-grid > * {
+    padding:1rem;
+}
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+    .responsive-two-column-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
